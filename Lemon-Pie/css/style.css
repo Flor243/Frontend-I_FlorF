@@ -1,0 +1,78 @@
+/* ESTILOS GENERALES */
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+body {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+/* HEADER */
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+/* MAIN */
+
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#808000;
+    text-align: right;
+    text-shadow: rgb(240, 230, 140, 0.4);
+}
+
+h2 {
+    font-size: 25px; 
+    font-weight: 500;;
+}
+
+h3 {
+    font-style: oblique; 
+}
+.banner{
+    /* background: wheat url("img/lemon-pie1.svg") no-repeat fixed -200px center; */
+    background-color: lightcoral;
+    background-image: url("../img/lemon-pie1.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: -200px center; */
+    background-size: cover;
+    height: 500px;
+}
+.banner > p{
+    color: #800000;
+    text-align:justify;
+   
+}
+.icono_receta{
+    color: grey;
+    font-size: 20px;
+    background-color: navajowhite;
+    padding: 6px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+}
+.icono-social{
+    margin-right: 10px;
+}
+
+
