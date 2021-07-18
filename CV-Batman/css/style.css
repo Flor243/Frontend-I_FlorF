@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* No lo heredaron los hijos, solo el selector llamado */
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: #E5E5E5;
+    text-align: center;  /* Esto se deja de usar con flex */
+}
+h1, h2{
+    margin-left: 5px;
+    background-color: #c4c4c4;
+    COLOR: #005677;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    
+}/*VA A SOBREESCRIBIR EL HEADER  */
+
+/* EL TEXT ALIGN ES HEREDABLE, TODOS LOS HIJOS LO VAN A HEREDAR DEL PADRE */
+h1{
+    font-size: 35px; /* lo escribo aparte porque los h2 y h1 no comparten el mismo font-size */
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* Main */
+
+/* Tiene que tener todo el contenido centrado */
+/* Por eso uso el div en HTML, para que me haga de contenedor de todas las secciones y no tener que centrarlas de a una */
+
+
+.container {
+    margin: 60px auto; /* le digo que le doy margenes 0 arriba y abajo y automaticamente derecha e izquierda. que haga los calculos solo */
+    max-width: 70%; /* se lo agrego porque el ancho de un elemento en bloque es 100%, entonces no me puede centrar automaticamente en el 100%, por lo tanto reduzco el ancho al 70 */
+} /* el porcentaje de cada elemento es respectivo al padre. dentro del conteiner, la seccion ocupa el 100 */
+
+
+h2{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+
+span{
+    font-weight: 700;
+}
+
+
+.personal span{
+    font-style: italic;
+}
+
+dl{
+    margin-left: 40px;
+}
+
+
+dd{
+    margin-left: 75px;
+}
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: #005677;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+footer a{
+    color:#fff; /* es para los iconos enlazados */
+}
+
+footer p{
+    display: inline-block;
+    margin: 5px;
+}
