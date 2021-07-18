@@ -1,0 +1,172 @@
+/* HEADER */
+
+#header{
+    color: white;
+    background-color: black;
+    margin-bottom: 15px;
+}
+#header p{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+#header div p{
+    margin: 0px;
+    margin-left: 50px;
+}
+
+#menu{
+    background-color: #F0A83E;
+}
+ #menu a{
+     font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+     font-size: 10px;
+     color: black;
+ }
+
+ #menu a span{
+     color: white;
+ }
+
+ #menu a h1{
+     display: inline;
+ }
+
+ #menu ul li a{
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     font-size: 16px;
+ }
+
+
+
+
+
+ /* MAIN */
+ 
+#art-dest{
+    position: relative;
+    text-align: center;
+}
+
+#art-dest img{
+    width: 100vw;
+
+}
+
+#saludo{
+    font-size: 30px;
+}
+
+#art-dest .item-text{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+#art-dest .item-link{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    padding: 1px;
+    color: white;
+    background-color: #F0A83E;
+}
+
+h2{
+    color: #3C2313;
+}
+
+.shop-nav{
+    padding: 0px;
+    font-size: 12px;
+}
+
+.shop-nav li{
+    display: inline;
+    color: #666;
+}
+.shop-nav li a{
+    text-decoration: none;
+    color:  #666666;
+}
+
+.contenedor{
+    background-color: #FFFAFA;
+}
+.product .product-name{
+    color: #3C2313;
+}
+
+.product .product-price{
+    color:#F0A83E;
+}
+
+
+
+
+/* FOOTER */
+
+.contact{     
+    background-color: #3C2313 ;
+    padding: 10px;
+}
+
+.contact div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #8A8787;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #786960;
+    border-radius:60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.contact div i{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 70px;
+    position: relative;
+    top: 15px;
+}
+
+.contact h4{
+    font-size: 20px;
+    color: white;
+}
+
+.contact p{
+    font-weight: 600;
+    color: #8A8787;
+}
+
+.contact a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.contact a p{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contact a p span{
+    color:#F0A83E;
+}
+
+#copyright{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    background-color: #F0A83E;}
