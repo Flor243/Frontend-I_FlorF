@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Estilos generales */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    /* height: 15%; */
+}
+
+.iconoynombre {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 60%; */
+    background-color: rgb(220, 220, 220);
+}
+
+section {
+    /* width: 400px; */
+    /* height: 650px; */
+    /*  */
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 600px;
+}
+
+.envio_pizzas {
+    /*  display: flex;
+    flex-grow: 0.5; */
+    width: 50%;
+    background-image: url("../img/delivery.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin-left: 20px;
+    margin-top: 30px; */
+}
+
+.top5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*  flex-grow: 0.5; */
+    align-items: center;
+    /* margin-right: 20px; */
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 600px;
+}
+
+.pedido {
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.itemsypizza {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.titulo_top_pizza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.5;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    height: 25%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+
+footer ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logofooter {
+    display: flex;
+    align-items: center;
+}
